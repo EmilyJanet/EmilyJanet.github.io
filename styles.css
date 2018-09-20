@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  height: 100vh;
+  background-image:  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5em;
+  color: yellow;
+}
+
+ul {
+  margin: 3px;
+  width: 60%;
+  height: 70%;
+  border-radius: 25px;
+  div {border-style: dotted;}
+  background-color: #459652;
+  font-size: 3em;
+  overflow-y: scroll;
+  list-style: italic;
+  padding-left: 0;
+}
+
+li {
+  border-radius: 30px;
+  margin: 20px;
+  background-color: #662c82;
+  border: 10px dotted #4d275e;
+}
+
+em {
+  font-size: 20px;
+  color: #BFFBFF;
+}
+
+input {
+  margin: 20px auto 10 auto;
+  width: 80%;
+  font-size: 2em;
+  border-color: green;
+}
